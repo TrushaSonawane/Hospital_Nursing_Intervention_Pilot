@@ -15,10 +15,10 @@ The analysis utilizes a star schema composed of one fact table and two dimension
 ## Analysis Steps & Files
 | Step | Description | File(s) |
 | :--- | :--- | :--- |
-| **Data Setup** | Initial exploration of tables. | `sql/Trusha_Sonawane_Assignment_2.sql` |
-| **Analysis (ICU OR SICU)** | Find top hospitals based on Licensed and Staffed beds for *either* ICU or SICU (Bed IDs 4 and 15). | `sql/Trusha_Sonawane_Assignment_2.sql` |
-| **Analysis (ICU AND SICU)** | Find top hospitals based on Licensed and Staffed beds for hospitals with *both* ICU and SICU units. | `sql/Trusha_Sonawane_Assignment_2.sql` |
-| **Results & Recommendation** | Interpretation of findings and the final selection of pilot hospitals. | `docs/Trusha_Sonawane_Assignment_2.docx` |
+| **Data Setup** | Initial exploration of tables. | `Hospital_Nursing_Intervention_Pilot.sql` |
+| **Analysis (ICU OR SICU)** | Find top hospitals based on Licensed and Staffed beds for *either* ICU or SICU (Bed IDs 4 and 15). | `Hospital_Nursing_Intervention_Pilotsql` |
+| **Analysis (ICU AND SICU)** | Find top hospitals based on Licensed and Staffed beds for hospitals with *both* ICU and SICU units. | `Hospital_Nursing_Intervention_Pilot.sql` |
+| **Results & Recommendation** | Interpretation of findings and the final selection of pilot hospitals. | `Hospital_Nursing_Intervention_Pilot.docx` |
 
 ## Key Recommendation
 The analysis identified the following hospitals as the top candidates for the pilot program due to their consistently high counts in both **Licensed Beds** and **Staffed Beds** for combined ICU and SICU units:
